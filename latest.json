@@ -1,16 +1,15 @@
 {
-  "versionCode": 8,
-  "version": "2.12.8.2-macOS.8",
+  "versionCode": 9,
+  "version": "2.12.8.2-macOS.9",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v8/PCL-macOS-2.12.8.2-arm64-v8.zip",
-  "sha256": "02739cf4f9589ac8cc86ad66cbe35d94d40c2d5f25d20905cfdde7b057271d1a",
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v9/PCL-macOS-2.12.8.2-arm64-v9.zip",
+  "sha256": "64fd628f558561d3d3ddc616c0adff4e09eb708eba40c261014369f14010f4f5",
   "size": 14441372,
   "mandatory": false,
   "notes": [
-    "修复标题栏 PCL 图标比例与自定义标题栏切换",
-    "让预设、本地文件与联网自定义主页真正生效",
-    "修正整合包、数据包、资源包和光影包分类图标",
-    "加入 Modrinth 联网搜索、类型筛选与分类下载",
-    "修复数据包检索与版本文件下载规则"
+    "修正“关于 PCL”窗口中的 macOS 版本号",
+    "补齐 GitHub Release 的源码压缩包",
+    "同步公开更新中心至 macOS v9",
+    "保留 v8 的标题栏、主页与社区资源修复"
   ]
 }
