@@ -1,15 +1,15 @@
 {
-  "versionCode": 12,
-  "version": "2.12.8.2-macOS.12",
+  "versionCode": 13,
+  "version": "2.12.8.2-macOS.13",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v12/PCL-macOS-2.12.8.2-arm64-v12.zip",
-  "sha256": "206be3410cf4e0684089340f67159a104dc08114bb664753d2e3904b90f96f17",
-  "size": 14579196,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v13/PCL-macOS-2.12.8.2-arm64-v13.zip",
+  "sha256": "f8df22663c60630292cb539f86fb00202981dfb9f27c1fbaf94483acbd470818",
+  "size": 14620627,
   "mandatory": false,
   "notes": [
-    "修复启动准备工作阻塞界面、点击后像没有反应的问题",
-    "新增 PCL 风格启动动画、阶段进度条、游戏 PID、用时与最后日志",
-    "游戏运行时可通过右下角“关闭游戏”结束真实 Java 进程",
-    "显示真实退出码，并自动提示 ETF、ServerTranslations 等模组冲突"
+    "背景图片、刷新按钮与不透明度设置现已真正生效",
+    "背景音乐支持系统可解码的全部格式，并提供播放、暂停、下一首和自动播放",
+    "主页改为独立移植版自己的白枫回声洞，并加入刷新按钮",
+    "英文模组按 PCL 词库汉化并支持中文搜索；离线账号可自定义 UUID"
   ]
 }
