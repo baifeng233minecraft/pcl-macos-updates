@@ -1,15 +1,15 @@
 {
-  "versionCode": 11,
-  "version": "2.12.8.2-macOS.11",
+  "versionCode": 12,
+  "version": "2.12.8.2-macOS.12",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v11/PCL-macOS-2.12.8.2-arm64-v11.zip",
-  "sha256": "4d994683b45eebe94fda8750deef4e84781a1c51fe20744880bb384d29782245",
-  "size": 14550153,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v12/PCL-macOS-2.12.8.2-arm64-v12.zip",
+  "sha256": "206be3410cf4e0684089340f67159a104dc08114bb664753d2e3904b90f96f17",
+  "size": 14579196,
   "mandatory": false,
   "notes": [
-    "让启动、版本名与描述、收藏、启动脚本和文件补全真正可用",
-    "五类资源加入详情页、中文摘要和原文简介",
-    "由用户手动选择 Minecraft 版本、发行版与具体下载文件",
-    "新增覆盖主页、侧栏、卡片、输入框和按钮的深色模式"
+    "修复启动准备工作阻塞界面、点击后像没有反应的问题",
+    "新增 PCL 风格启动动画、阶段进度条、游戏 PID、用时与最后日志",
+    "游戏运行时可通过右下角“关闭游戏”结束真实 Java 进程",
+    "显示真实退出码，并自动提示 ETF、ServerTranslations 等模组冲突"
   ]
 }
