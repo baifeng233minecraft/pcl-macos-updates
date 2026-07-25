@@ -1,14 +1,16 @@
 {
-  "versionCode": 7,
-  "version": "2.12.8.2-macOS.7",
+  "versionCode": 8,
+  "version": "2.12.8.2-macOS.8",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v7/PCL-macOS-2.12.8.2-arm64-v7.zip",
-  "sha256": "1e7607152792f34390c11edf3faebc1d51b06b450bc5361520dda4d2f3b4d6e7",
-  "size": 14324129,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v8/PCL-macOS-2.12.8.2-arm64-v8.zip",
+  "sha256": "02739cf4f9589ac8cc86ad66cbe35d94d40c2d5f25d20905cfdde7b057271d1a",
+  "size": 14441372,
   "mandatory": false,
   "notes": [
-    "加入启动时自动检查更新",
-    "支持下载后 SHA-256 安全校验",
-    "支持退出后自动替换并保留上一版本"
+    "修复标题栏 PCL 图标比例与自定义标题栏切换",
+    "让预设、本地文件与联网自定义主页真正生效",
+    "修正整合包、数据包、资源包和光影包分类图标",
+    "加入 Modrinth 联网搜索、类型筛选与分类下载",
+    "修复数据包检索与版本文件下载规则"
   ]
 }
