@@ -1,0 +1,14 @@
+{
+  "versionCode": 7,
+  "version": "2.12.8.2-macOS.7",
+  "minimumSystemVersion": "14.0",
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v7/PCL-macOS-2.12.8.2-arm64-v7.zip",
+  "sha256": "1e7607152792f34390c11edf3faebc1d51b06b450bc5361520dda4d2f3b4d6e7",
+  "size": 14324129,
+  "mandatory": false,
+  "notes": [
+    "加入启动时自动检查更新",
+    "支持下载后 SHA-256 安全校验",
+    "支持退出后自动替换并保留上一版本"
+  ]
+}
