@@ -1,15 +1,15 @@
 {
-  "versionCode": 10,
-  "version": "2.12.8.2-macOS.10",
+  "versionCode": 11,
+  "version": "2.12.8.2-macOS.11",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v10/PCL-macOS-2.12.8.2-arm64-v10.zip",
-  "sha256": "8c6173caae68078b51bf3d6cc0883deb99540259319f097296ea5ef3588c951e",
-  "size": 14470134,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v11/PCL-macOS-2.12.8.2-arm64-v11.zip",
+  "sha256": "4d994683b45eebe94fda8750deef4e84781a1c51fe20744880bb384d29782245",
+  "size": 14550153,
   "mandatory": false,
   "notes": [
-    "不再使用 PCL 原版回声洞与反馈入口",
-    "加入启动器内置的匿名建议表单，无需登录",
-    "支持建议分类、字数提示和提交状态动画",
-    "加入防重复提交、长度校验与基础防滥用保护"
+    "让启动、版本名与描述、收藏、启动脚本和文件补全真正可用",
+    "五类资源加入详情页、中文摘要和原文简介",
+    "由用户手动选择 Minecraft 版本、发行版与具体下载文件",
+    "新增覆盖主页、侧栏、卡片、输入框和按钮的深色模式"
   ]
 }
