@@ -1,15 +1,15 @@
 {
-  "versionCode": 9,
-  "version": "2.12.8.2-macOS.9",
+  "versionCode": 10,
+  "version": "2.12.8.2-macOS.10",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v9/PCL-macOS-2.12.8.2-arm64-v9.zip",
-  "sha256": "64fd628f558561d3d3ddc616c0adff4e09eb708eba40c261014369f14010f4f5",
-  "size": 14441372,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v10/PCL-macOS-2.12.8.2-arm64-v10.zip",
+  "sha256": "8c6173caae68078b51bf3d6cc0883deb99540259319f097296ea5ef3588c951e",
+  "size": 14470134,
   "mandatory": false,
   "notes": [
-    "修正“关于 PCL”窗口中的 macOS 版本号",
-    "补齐 GitHub Release 的源码压缩包",
-    "同步公开更新中心至 macOS v9",
-    "保留 v8 的标题栏、主页与社区资源修复"
+    "不再使用 PCL 原版回声洞与反馈入口",
+    "加入启动器内置的匿名建议表单，无需登录",
+    "支持建议分类、字数提示和提交状态动画",
+    "加入防重复提交、长度校验与基础防滥用保护"
   ]
 }
