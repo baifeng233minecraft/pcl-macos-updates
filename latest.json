@@ -1,16 +1,16 @@
 {
-  "versionCode": 15,
-  "version": "2.12.8.2-macOS.15",
+  "versionCode": 16,
+  "version": "2.12.8.2-macOS.16",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v15/PCL-macOS-2.12.8.2-arm64-v15.zip",
-  "sha256": "c6994b5955eeb7085f14a206e4c14ea8c5039f4a8f6e864d1da0e8003d81e6d5",
-  "size": 14765880,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v16/PCL-macOS-2.12.8.2-arm64-v16.zip",
+  "sha256": "f9e8cd57833f2d38989ef5014f346863d5651e839407a88b09dd6dd82b89c26d",
+  "size": 14864330,
   "mandatory": false,
   "notes": [
-    "实例设置新增资源包、光影包与数据包管理，可导入、启用、禁用、删除和打开实际目录",
-    "新增 Minecraft 版本、Fabric Loader 与 Loader 版本修改，迁移时同步调整当前实例模组",
-    "所有资源下载统一写入当前所选实例，并严格遵循该实例的版本隔离目录",
-    "模组下载、更新与实例迁移会递归安装必需前置；不兼容模组仅禁用不删除",
-    "Modrinth 整合包会保存在当前实例并把模组、资源与配置实际安装进去"
+    "实例管理新增模组、资源包、数据包与光影包搜索下载，资源按所选版本安装到当前实例对应目录",
+    "实例管理可读取 Mod 元数据图标及资源包、数据包、光影包内置图片，无图时保留原有默认图标",
+    "检测到 Iris 后可直接在启动器修改每个光影包的设置、预设与选项，无需启动 Minecraft",
+    "优化真实光影包解析，一次解压后统一读取；Bliss 测试包可在约 0.5 秒内解析 337 个设置项",
+    "自定义实例名会自动提取真实 Minecraft 版本号，避免把‘服务器版’等名称误作搜索版本"
   ]
 }
