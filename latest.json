@@ -1,16 +1,16 @@
 {
-  "versionCode": 16,
-  "version": "2.12.8.2-macOS.16",
+  "versionCode": 17,
+  "version": "2.12.8.2-macOS.17",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v16/PCL-macOS-2.12.8.2-arm64-v16.zip",
-  "sha256": "f9e8cd57833f2d38989ef5014f346863d5651e839407a88b09dd6dd82b89c26d",
-  "size": 14864330,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v17/PCL-macOS-2.12.8.2-arm64-v17.zip",
+  "sha256": "3aec17d0f404f4dcc3cf44d18b1e6686cc4efea9b2e7dff3e0983b0bf81e538f",
+  "size": 14827988,
   "mandatory": false,
   "notes": [
-    "实例管理新增模组、资源包、数据包与光影包搜索下载，资源按所选版本安装到当前实例对应目录",
-    "实例管理可读取 Mod 元数据图标及资源包、数据包、光影包内置图片，无图时保留原有默认图标",
-    "检测到 Iris 后可直接在启动器修改每个光影包的设置、预设与选项，无需启动 Minecraft",
-    "优化真实光影包解析，一次解压后统一读取；Bliss 测试包可在约 0.5 秒内解析 337 个设置项",
-    "自定义实例名会自动提取真实 Minecraft 版本号，避免把‘服务器版’等名称误作搜索版本"
+    "自动识别 Modrinth App 的新版、旧版与自定义数据目录，并将其中实例加入版本列表",
+    "直接读取 Modrinth 数据库中的实例名称、Minecraft 版本、加载器版本和实例图标",
+    "Mod、资源包、数据包、光影包、存档和配置与 Modrinth 共用原文件夹，两边修改实时同步",
+    "支持使用 Modrinth 的版本清单、资源库、游戏资源和内置 Java 启动游戏，不复制实例文件",
+    "为保护 Modrinth 数据库，Minecraft 与加载器版本改由 Modrinth 管理，启动器内提供明确提示"
   ]
 }
