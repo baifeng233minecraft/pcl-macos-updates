@@ -1,15 +1,16 @@
 {
-  "versionCode": 14,
-  "version": "2.12.8.2-macOS.14",
+  "versionCode": 15,
+  "version": "2.12.8.2-macOS.15",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v14/PCL-macOS-2.12.8.2-arm64-v14.zip",
-  "sha256": "0eb819de43142b810888481b46d14c20955700b63f67558ad1c4db930a2cda3f",
-  "size": 14693195,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v15/PCL-macOS-2.12.8.2-arm64-v15.zip",
+  "sha256": "c6a1b17d8f84b537f677d6c709ba7f5ae8a99a80162a7ab80b961848476e80c3",
+  "size": 14765806,
   "mandatory": false,
   "notes": [
-    "修复版本隔离没有实际效果：启动、模组列表、导入与下载统一使用隔离目录",
-    "模组管理新增详细信息、启用禁用、删除、下载页面与兼容版本切换",
-    "可检测 Modrinth 上的兼容更新并替换本地模组，同时保留禁用状态",
-    "下载或更新模组时自动解析并安装所有必需前置模组"
+    "实例设置新增资源包、光影包与数据包管理，可导入、启用、禁用、删除和打开实际目录",
+    "新增 Minecraft 版本、Fabric Loader 与 Loader 版本修改，迁移时同步调整当前实例模组",
+    "所有资源下载统一写入当前所选实例，并严格遵循该实例的版本隔离目录",
+    "模组下载、更新与实例迁移会递归安装必需前置；不兼容模组仅禁用不删除",
+    "Modrinth 整合包会保存在当前实例并把模组、资源与配置实际安装进去"
   ]
 }
