@@ -1,15 +1,15 @@
 {
-  "versionCode": 13,
-  "version": "2.12.8.2-macOS.13",
+  "versionCode": 14,
+  "version": "2.12.8.2-macOS.14",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v13/PCL-macOS-2.12.8.2-arm64-v13.zip",
-  "sha256": "f8df22663c60630292cb539f86fb00202981dfb9f27c1fbaf94483acbd470818",
-  "size": 14620627,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v14/PCL-macOS-2.12.8.2-arm64-v14.zip",
+  "sha256": "0eb819de43142b810888481b46d14c20955700b63f67558ad1c4db930a2cda3f",
+  "size": 14693195,
   "mandatory": false,
   "notes": [
-    "背景图片、刷新按钮与不透明度设置现已真正生效",
-    "背景音乐支持系统可解码的全部格式，并提供播放、暂停、下一首和自动播放",
-    "主页改为独立移植版自己的白枫回声洞，并加入刷新按钮",
-    "英文模组按 PCL 词库汉化并支持中文搜索；离线账号可自定义 UUID"
+    "修复版本隔离没有实际效果：启动、模组列表、导入与下载统一使用隔离目录",
+    "模组管理新增详细信息、启用禁用、删除、下载页面与兼容版本切换",
+    "可检测 Modrinth 上的兼容更新并替换本地模组，同时保留禁用状态",
+    "下载或更新模组时自动解析并安装所有必需前置模组"
   ]
 }
