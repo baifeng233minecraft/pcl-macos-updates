@@ -3,8 +3,8 @@
   "version": "2.12.8.2-macOS.15",
   "minimumSystemVersion": "14.0",
   "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v15/PCL-macOS-2.12.8.2-arm64-v15.zip",
-  "sha256": "c6a1b17d8f84b537f677d6c709ba7f5ae8a99a80162a7ab80b961848476e80c3",
-  "size": 14765806,
+  "sha256": "c6994b5955eeb7085f14a206e4c14ea8c5039f4a8f6e864d1da0e8003d81e6d5",
+  "size": 14765880,
   "mandatory": false,
   "notes": [
     "实例设置新增资源包、光影包与数据包管理，可导入、启用、禁用、删除和打开实际目录",
