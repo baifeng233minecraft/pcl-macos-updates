@@ -1,16 +1,16 @@
 {
-  "versionCode": 17,
-  "version": "2.12.8.2-macOS.17",
+  "versionCode": 18,
+  "version": "2.12.8.2-macOS.18",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v17/PCL-macOS-2.12.8.2-arm64-v17.zip",
-  "sha256": "3aec17d0f404f4dcc3cf44d18b1e6686cc4efea9b2e7dff3e0983b0bf81e538f",
-  "size": 14827988,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v18/PCL-macOS-2.12.8.2-arm64-v18.zip",
+  "sha256": "fdac07b30f95ef1e177f5e9358adab78fa14ef4d9e9f1f89041e5b61f3eb683b",
+  "size": 14845340,
   "mandatory": false,
   "notes": [
-    "自动识别 Modrinth App 的新版、旧版与自定义数据目录，并将其中实例加入版本列表",
-    "直接读取 Modrinth 数据库中的实例名称、Minecraft 版本、加载器版本和实例图标",
-    "Mod、资源包、数据包、光影包、存档和配置与 Modrinth 共用原文件夹，两边修改实时同步",
-    "支持使用 Modrinth 的版本清单、资源库、游戏资源和内置 Java 启动游戏，不复制实例文件",
-    "为保护 Modrinth 数据库，Minecraft 与加载器版本改由 Modrinth 管理，启动器内提供明确提示"
+    "修复回声洞建议因远程安全验证拦截而一直提交失败的问题",
+    "建议会先安全保存到本机回声洞收件箱，远程通道恢复后自动重试，避免内容丢失",
+    "提交完成后新增醒目的‘已提交建议’确认弹窗，并保留页面内成功状态",
+    "新增本地建议状态记录，可区分已联网送达与等待同步的建议",
+    "建立每天中午 12 点的回声洞建议统计任务，汇总新增数量、分类、重复反馈和待同步数量"
   ]
 }
