@@ -1,16 +1,14 @@
 {
-  "versionCode": 19,
-  "version": "2.12.8.2-macOS.19",
+  "versionCode": 20,
+  "version": "2.12.8.2-macOS.20",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v19/PCL-macOS-2.12.8.2-arm64-v19.zip",
-  "sha256": "330db5de3c1ac469df9f623116e4164cc9978fe8384b62faed8a3e8250752078",
-  "size": 14963317,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v20/PCL-macOS-2.12.8.2-arm64-v20.zip",
+  "sha256": "ced78949da8c218adf26ee381d8e4ee3bc6ccafc6211609095d9fd6a45688cfd",
+  "size": 14963776,
   "mandatory": false,
   "notes": [
-    "新增标准 Yggdrasil 第三方外置登录，支持自定义认证服务器、账号密码登录和角色选择",
-    "第三方登录令牌存入 macOS 钥匙串，密码不写入配置文件且登录成功后立即清空",
-    "启动时自动准备并校验 authlib-injector，将第三方身份、皮肤和多人游戏鉴权真正传给 Minecraft",
-    "离线皮肤新增 LittleSkin 来源，可按角色名读取皮肤、刷新头像并生成本机离线皮肤资源包",
-    "第三方外置登录不能替代正版账号，仅适用于服务端也正确配置相同认证服务器的场景"
+    "修复已更新到正式版后仍反复出现更新提示的问题",
+    "更新模块现在从应用包读取自身版本编号，不再依赖容易漏改的代码常量",
+    "保留 v19 的第三方 Yggdrasil 登录、authlib-injector 与 LittleSkin 离线皮肤支持"
   ]
 }
