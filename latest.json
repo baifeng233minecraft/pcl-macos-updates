@@ -1,14 +1,15 @@
 {
-  "versionCode": 20,
-  "version": "2.12.8.2-macOS.20",
+  "versionCode": 21,
+  "version": "2.12.8.2-macOS.21",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v20/PCL-macOS-2.12.8.2-arm64-v20.zip",
-  "sha256": "ced78949da8c218adf26ee381d8e4ee3bc6ccafc6211609095d9fd6a45688cfd",
-  "size": 14963776,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v21/PCL-macOS-2.12.8.2-arm64-v21.zip",
+  "sha256": "daf8033d0483e9717a39c293a8c587afe7fc6592dd19b6e7ee38f90f92b1cdd0",
+  "size": 14990621,
   "mandatory": false,
   "notes": [
-    "修复已更新到正式版后仍反复出现更新提示的问题",
-    "更新模块现在从应用包读取自身版本编号，不再依赖容易漏改的代码常量",
-    "保留 v19 的第三方 Yggdrasil 登录、authlib-injector 与 LittleSkin 离线皮肤支持"
+    "补齐 PCL 隐藏主题列表，并在每个主题中显示原版获取方式",
+    "隐藏主题区域新增口令输入框，输入 awa 可一次解锁全部隐藏主题",
+    "玄素黑、滑稽彩、铁杆粉、欧皇彩、跳票红和自定义主题的本地解锁条件已生效",
+    "补上极客蓝右键解密入口，以及自定义主题的色调、饱和度、渐变和亮度调整"
   ]
 }
