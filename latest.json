@@ -1,16 +1,16 @@
 {
-  "versionCode": 18,
-  "version": "2.12.8.2-macOS.18",
+  "versionCode": 19,
+  "version": "2.12.8.2-macOS.19",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v18/PCL-macOS-2.12.8.2-arm64-v18.zip",
-  "sha256": "fdac07b30f95ef1e177f5e9358adab78fa14ef4d9e9f1f89041e5b61f3eb683b",
-  "size": 14845340,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v19/PCL-macOS-2.12.8.2-arm64-v19.zip",
+  "sha256": "330db5de3c1ac469df9f623116e4164cc9978fe8384b62faed8a3e8250752078",
+  "size": 14963317,
   "mandatory": false,
   "notes": [
-    "修复回声洞建议因远程安全验证拦截而一直提交失败的问题",
-    "建议会先安全保存到本机回声洞收件箱，远程通道恢复后自动重试，避免内容丢失",
-    "提交完成后新增醒目的‘已提交建议’确认弹窗，并保留页面内成功状态",
-    "新增本地建议状态记录，可区分已联网送达与等待同步的建议",
-    "建立每天中午 12 点的回声洞建议统计任务，汇总新增数量、分类、重复反馈和待同步数量"
+    "新增标准 Yggdrasil 第三方外置登录，支持自定义认证服务器、账号密码登录和角色选择",
+    "第三方登录令牌存入 macOS 钥匙串，密码不写入配置文件且登录成功后立即清空",
+    "启动时自动准备并校验 authlib-injector，将第三方身份、皮肤和多人游戏鉴权真正传给 Minecraft",
+    "离线皮肤新增 LittleSkin 来源，可按角色名读取皮肤、刷新头像并生成本机离线皮肤资源包",
+    "第三方外置登录不能替代正版账号，仅适用于服务端也正确配置相同认证服务器的场景"
   ]
 }
