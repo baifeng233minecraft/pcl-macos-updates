@@ -1,15 +1,15 @@
 {
-  "versionCode": 21,
-  "version": "2.12.8.2-macOS.21",
+  "versionCode": 22,
+  "version": "2.12.8.2-macOS.22",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v21/PCL-macOS-2.12.8.2-arm64-v21.zip",
-  "sha256": "daf8033d0483e9717a39c293a8c587afe7fc6592dd19b6e7ee38f90f92b1cdd0",
-  "size": 14990621,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v22/PCL-macOS-2.12.8.2-arm64-v22.zip",
+  "sha256": "738f1de59c7a1dd790f8996a27d2b2b3ba13e250ead131c7e1651d55bc8e4d8a",
+  "size": 15073011,
   "mandatory": false,
   "notes": [
-    "补齐 PCL 隐藏主题列表，并在每个主题中显示原版获取方式",
-    "隐藏主题区域新增口令输入框，输入 awa 可一次解锁全部隐藏主题",
-    "玄素黑、滑稽彩、铁杆粉、欧皇彩、跳票红和自定义主题的本地解锁条件已生效",
-    "补上极客蓝右键解密入口，以及自定义主题的色调、饱和度、渐变和亮度调整"
+    "整合包支持下载、拖放安装及 Modrinth、CurseForge、HMCL、MultiMC 与 Prism 等格式导入",
+    "可复用 Modrinth、HMCL 与官方启动器的有效正版会话，并修复正版皮肤头像读取",
+    "新增跟随系统、浅色和深色外观模式，优化账号头像第二层与主页布局",
+    "主页新增快捷游戏栏，可快速启动最近实例或直接进入最近服务器"
   ]
 }
