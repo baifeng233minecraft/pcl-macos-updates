@@ -1,15 +1,15 @@
 {
-  "versionCode": 22,
-  "version": "2.12.8.2-macOS.22",
+  "versionCode": 23,
+  "version": "2.12.8.2-macOS.23",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v22/PCL-macOS-2.12.8.2-arm64-v22.zip",
-  "sha256": "738f1de59c7a1dd790f8996a27d2b2b3ba13e250ead131c7e1651d55bc8e4d8a",
-  "size": 15073011,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v23/PCL-macOS-2.12.8.2-arm64-v23.zip",
+  "sha256": "304d1afc09dd5c4bc2ea315288c8357247ba1d96c64da864f109a6d2ee1983a1",
+  "size": 15120401,
   "mandatory": false,
   "notes": [
-    "整合包支持下载、拖放安装及 Modrinth、CurseForge、HMCL、MultiMC 与 Prism 等格式导入",
-    "可复用 Modrinth、HMCL 与官方启动器的有效正版会话，并修复正版皮肤头像读取",
-    "新增跟随系统、浅色和深色外观模式，优化账号头像第二层与主页布局",
-    "主页新增快捷游戏栏，可快速启动最近实例或直接进入最近服务器"
+    "修复跟随系统和深色模式配色，卡片、Mod 列表、按钮与输入框均正确适配",
+    "设置导入与导出正式可用，支持安全迁移主题、主页、启动参数及其他启动器设置",
+    "重写关于与鸣谢页面，补充真实技术来源、隐私说明、许可文件和当前版本信息",
+    "所有赞助入口统一更新为白枫的爱发电主页"
   ]
 }
