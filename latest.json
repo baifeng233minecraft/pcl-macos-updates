@@ -1,15 +1,15 @@
 {
-  "versionCode": 23,
-  "version": "2.12.8.2-macOS.23",
+  "versionCode": 24,
+  "version": "2.12.8.2-macOS.24",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v23/PCL-macOS-2.12.8.2-arm64-v23.zip",
-  "sha256": "304d1afc09dd5c4bc2ea315288c8357247ba1d96c64da864f109a6d2ee1983a1",
-  "size": 15120401,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v24/PCL-macOS-2.12.8.2-arm64-v24.zip",
+  "sha256": "fac77ce0801f35e13aabd66d705b99ace28294a883361500b11a3b9b72e898bb",
+  "size": 15155957,
   "mandatory": false,
   "notes": [
-    "修复跟随系统和深色模式配色，卡片、Mod 列表、按钮与输入框均正确适配",
-    "设置导入与导出正式可用，支持安全迁移主题、主页、启动参数及其他启动器设置",
-    "重写关于与鸣谢页面，补充真实技术来源、隐私说明、许可文件和当前版本信息",
-    "所有赞助入口统一更新为白枫的爱发电主页"
+    "顶部标签和侧栏指示器会连贯滑动，主页面与分类切换使用不同方向和节奏的转场",
+    "卡片错峰出现，按钮、单选项、图标和资源列表加入悬停与按压回弹反馈",
+    "登录、启动进程、真实进度、阶段文字、日志和遮罩层分别使用独立状态动画",
+    "所有新增动画遵循 macOS 减少动态效果设置，并保持点击即时响应"
   ]
 }
