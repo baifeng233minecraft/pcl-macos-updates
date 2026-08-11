@@ -1,15 +1,17 @@
 {
-  "versionCode": 24,
-  "version": "2.12.8.2-macOS.24",
+  "versionCode": 25,
+  "version": "v1.0.0",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/macos-v24/PCL-macOS-2.12.8.2-arm64-v24.zip",
-  "sha256": "fac77ce0801f35e13aabd66d705b99ace28294a883361500b11a3b9b72e898bb",
-  "size": 15155957,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.0/PCL-macOS-v1.0.0-arm64.zip",
+  "sha256": "ccfb52e4f2366c3df47665d9238b913b65c74924088e19bcb1787af1f34dde78",
+  "size": 15242078,
   "mandatory": false,
   "notes": [
-    "顶部标签和侧栏指示器会连贯滑动，主页面与分类切换使用不同方向和节奏的转场",
-    "卡片错峰出现，按钮、单选项、图标和资源列表加入悬停与按压回弹反馈",
-    "登录、启动进程、真实进度、阶段文字、日志和遮罩层分别使用独立状态动画",
-    "所有新增动画遵循 macOS 减少动态效果设置，并保持点击即时响应"
+    "独立移植版启用自己的语义版本号 v1.0.0，不再沿用原版 PCL 的版本号",
+    "新增一次授权更新：安装到用户应用程序目录后，后续替换不再索要管理员密码",
+    "软件更新可设置启动时自动安装、更新提示与手动检查，并保留校验和回滚保护",
+    "主页快捷游戏可开关并自定义实例、服务器和显示数量",
+    "实例选择支持创建并管理多个 Minecraft 文件夹",
+    "进一步减少列表和页面动画开销，可在个性化设置中关闭更多动画"
   ]
 }
