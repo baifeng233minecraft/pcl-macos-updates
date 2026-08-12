@@ -1,15 +1,16 @@
 {
-  "versionCode": 26,
-  "version": "v1.0.1",
+  "versionCode": 27,
+  "version": "v1.0.2",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.1/PCL-macOS-v1.0.1-arm64.zip",
-  "sha256": "dce7193ce2dee04970aafcb26288126a8c1d071b1b0cddbe89c7344a71e6fb12",
-  "size": 15243650,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.2/PCL-macOS-v1.0.2-arm64.zip",
+  "sha256": "12c4d925b5493f635bb0d3999da7e8b37eb49402d79dbd1fd51c4b2198c29829",
+  "size": 15446099,
   "mandatory": false,
   "notes": [
-    "设置、下载和实例设置等共用侧栏新增选中项移动动画",
-    "选中背景与红色指示条会同步、连贯地滑动到新条目",
-    "短时弹性过渡保持点击即时响应，不增加持续动画开销",
-    "动画遵循启动器“更多动画”开关和 macOS“减少动态效果”设置"
+    "完善玄素黑、滑稽彩、铁杆粉、神秘紫、欧皇彩、跳票红、极客蓝与自定义主题的获取逻辑",
+    "隐藏主题卡片不再直接显示获取提示；秋仪金与活跃橙不新增获取方式",
+    "滑稽彩改为 4 月 1 日点击启动时解锁，不再仅因日期自动解锁",
+    "修复深色、浅色与跟随系统模式切换后的即时刷新和列表悬停对比度",
+    "补全版本删除、文件补全、游戏崩溃报告、系统字体识别与在线字体下载"
   ]
 }
