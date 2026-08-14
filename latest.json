@@ -3,8 +3,8 @@
   "version": "v1.0.3",
   "minimumSystemVersion": "14.0",
   "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.3/PCL-macOS-v1.0.3-arm64.zip",
-  "sha256": "13e4752482eeb5647472ae3094965cba8de9d2667d1595713385ab19409ada71",
-  "size": 15476731,
+  "sha256": "e04bdbc15f13239e27fe3d57338a16b1f01dd25bab6bd17d8498f589772ce8f1",
+  "size": 15503728,
   "mandatory": true,
   "notes": [
     "新增正版玩家皮肤 PNG 文件获取与保存功能",
@@ -12,6 +12,7 @@
     "修复旧版本无法稳定检测更新，增加多更新源、缓存刷新和版本号比较",
     "百宝箱内存优化与垃圾清理改为真实操作，清理前显示扫描结果并移入废纸篓",
     "百宝箱自定义下载新增进度、速度、取消、重试、重名保护与 Finder 定位",
+    "去除启动器窗口外围白框，并在最小化按钮左侧新增可用的重启启动器按钮",
     "本次会强制显示一次更新窗口，确保关闭过更新提示的旧版本也能发现 v1.0.3"
   ]
 }
