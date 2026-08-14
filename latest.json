@@ -1,17 +1,18 @@
 {
-  "versionCode": 27,
-  "version": "v1.0.2",
+  "versionCode": 28,
+  "version": "v1.0.3",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.2/PCL-macOS-v1.0.2-arm64.zip",
-  "sha256": "12c4d925b5493f635bb0d3999da7e8b37eb49402d79dbd1fd51c4b2198c29829",
-  "size": 15446099,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.3/PCL-macOS-v1.0.3-arm64.zip",
+  "sha256": "e04bdbc15f13239e27fe3d57338a16b1f01dd25bab6bd17d8498f589772ce8f1",
+  "size": 15503728,
   "mandatory": true,
   "notes": [
-    "完善玄素黑、滑稽彩、铁杆粉、神秘紫、欧皇彩、跳票红、极客蓝与自定义主题的获取逻辑",
-    "隐藏主题卡片不再直接显示获取提示；秋仪金与活跃橙不新增获取方式",
-    "滑稽彩改为 4 月 1 日点击启动时解锁，不再仅因日期自动解锁",
-    "修复深色、浅色与跟随系统模式切换后的即时刷新和列表悬停对比度",
-    "补全版本删除、文件补全、游戏崩溃报告、系统字体识别与在线字体下载",
-    "本次将强制显示一次更新窗口，修复旧版本关闭更新提示后看不到新版本的问题"
+    "新增正版玩家皮肤 PNG 文件获取与保存功能",
+    "支持上传 64×64 或 64×32 皮肤并导出 256×256 第二皮肤层头像 PNG",
+    "修复旧版本无法稳定检测更新，增加多更新源、缓存刷新和版本号比较",
+    "百宝箱内存优化与垃圾清理改为真实操作，清理前显示扫描结果并移入废纸篓",
+    "百宝箱自定义下载新增进度、速度、取消、重试、重名保护与 Finder 定位",
+    "去除启动器窗口外围白框，并在最小化按钮左侧新增可用的重启启动器按钮",
+    "本次会强制显示一次更新窗口，确保关闭过更新提示的旧版本也能发现 v1.0.3"
   ]
 }
