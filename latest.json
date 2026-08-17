@@ -1,17 +1,19 @@
 {
-  "versionCode": 28,
-  "version": "v1.0.4",
+  "versionCode": 30,
+  "version": "v1.0.5",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.4/PCL-macOS-v1.0.4-arm64.zip",
-  "sha256": "211b8a9a6d2568f24bcec90e5d31dd98a487ec4f8a762ca8c9dc59b2c462f37b",
-  "size": 15499949,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.5/PCL-macOS-v1.0.5-arm64.zip",
+  "sha256": "0a0811f385e001f1a490b2b91c6b1dc983f8fbd5e3f70dab9d91eac295a8c6bf",
+  "size": 15731795,
   "mandatory": false,
   "notes": [
-    "新增页面弹簧动画、列表分批出现动画、展开动画和刷新反馈",
-    "左侧列表选中与悬停背景改为连续圆角，并优化浅色和深色模式亮度",
-    "游戏下载正式版、快照版和旧版本改用对应的 Minecraft 方块贴图",
-    "启动器标题栏、侧栏、内容区和覆盖层统一使用同一个外轮廓",
-    "修复切换应用、最小化恢复或全屏后 macOS 原生红黄绿按钮偶发出现",
-    "动画会遵循更多动画开关与 macOS 减少动态效果设置"
+    "新增世界管理、独立备份与恢复，备份不会覆盖现有世界",
+    "新增 Java 管理，并可在启动游戏时自动补齐所需 Java 版本",
+    "新增手柄检测，并为受支持的加载器自动安装 Controlify 及前置",
+    "新增统一下载中心，显示单项进度、总进度、速度与任务状态",
+    "百宝箱现可实际下载文件，并支持重试、取消和在访达中显示",
+    "新增带动画的游戏崩溃提示、错误报告生成与报告入口",
+    "修复 Modrinth 联网、含空格关键词搜索和 HMCL 实例版本识别",
+    "新增常用快捷键，并修复版本概览图标缺失"
   ]
 }
