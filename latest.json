@@ -1,18 +1,17 @@
 {
-  "versionCode": 28,
-  "version": "v1.0.3",
+  "versionCode": 29,
+  "version": "v1.0.4",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.3/PCL-macOS-v1.0.3-arm64.zip",
-  "sha256": "e04bdbc15f13239e27fe3d57338a16b1f01dd25bab6bd17d8498f589772ce8f1",
-  "size": 15503728,
-  "mandatory": true,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.4/PCL-macOS-v1.0.4-arm64.zip",
+  "sha256": "211b8a9a6d2568f24bcec90e5d31dd98a487ec4f8a762ca8c9dc59b2c462f37b",
+  "size": 15499949,
+  "mandatory": false,
   "notes": [
-    "新增正版玩家皮肤 PNG 文件获取与保存功能",
-    "支持上传 64×64 或 64×32 皮肤并导出 256×256 第二皮肤层头像 PNG",
-    "修复旧版本无法稳定检测更新，增加多更新源、缓存刷新和版本号比较",
-    "百宝箱内存优化与垃圾清理改为真实操作，清理前显示扫描结果并移入废纸篓",
-    "百宝箱自定义下载新增进度、速度、取消、重试、重名保护与 Finder 定位",
-    "去除启动器窗口外围白框，并在最小化按钮左侧新增可用的重启启动器按钮",
-    "本次会强制显示一次更新窗口，确保关闭过更新提示的旧版本也能发现 v1.0.3"
+    "新增页面弹簧动画、列表分批出现动画、展开动画和刷新反馈",
+    "左侧列表选中与悬停背景改为连续圆角，并优化浅色和深色模式亮度",
+    "游戏下载正式版、快照版和旧版本改用对应的 Minecraft 方块贴图",
+    "启动器标题栏、侧栏、内容区和覆盖层统一使用同一个外轮廓",
+    "修复切换应用、最小化恢复或全屏后 macOS 原生红黄绿按钮偶发出现",
+    "动画会遵循更多动画开关与 macOS 减少动态效果设置"
   ]
 }
