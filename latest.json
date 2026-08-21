@@ -1,19 +1,19 @@
 {
-  "versionCode": 30,
-  "version": "v1.0.5",
+  "versionCode": 31,
+  "version": "v1.0.6",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.5/PCL-macOS-v1.0.5-arm64.zip",
-  "sha256": "0a0811f385e001f1a490b2b91c6b1dc983f8fbd5e3f70dab9d91eac295a8c6bf",
-  "size": 15731795,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.6/PCL-macOS-v1.0.6-arm64.zip",
+  "sha256": "69b87c7c99a75c56d771e68523050ff308c3270bcc2b453a26285a31bbe9a172",
+  "size": 15883891,
   "mandatory": false,
   "notes": [
-    "新增世界管理、独立备份与恢复，备份不会覆盖现有世界",
-    "新增 Java 管理，并可在启动游戏时自动补齐所需 Java 版本",
-    "新增手柄检测，并为受支持的加载器自动安装 Controlify 及前置",
-    "新增统一下载中心，显示单项进度、总进度、速度与任务状态",
-    "百宝箱现可实际下载文件，并支持重试、取消和在访达中显示",
-    "新增带动画的游戏崩溃提示、错误报告生成与报告入口",
-    "修复 Modrinth 联网、含空格关键词搜索和 HMCL 实例版本识别",
-    "新增常用快捷键，并修复版本概览图标缺失"
+    "顶部新增实验室入口与 Command-4 快捷键，实验功能以小卡片呈现",
+    "首个实验功能“内容汉化工坊”支持整合包、模组与资源包",
+    "支持文件夹、JAR、ZIP、MRPACK、7Z、RAR、TAR、GZ 与 TGZ",
+    "扫描 en_us、本地复用 zh_cn、自动填写常用词并允许人工编辑",
+    "检测 class 中疑似写死的英文文案并生成审计报告，不破坏字节码",
+    "可导出独立汉化资源包，不直接覆盖原文件",
+    "实验室新增入场、卡片、扫描与结果动画，并遵循减少动态效果设置",
+    "汉化编辑区新增实时完成数量、百分比与动画进度条"
   ]
 }
