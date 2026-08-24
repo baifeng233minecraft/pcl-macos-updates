@@ -1,19 +1,17 @@
 {
-  "versionCode": 31,
-  "version": "v1.0.6",
+  "versionCode": 32,
+  "version": "v1.0.7",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.6/PCL-macOS-v1.0.6-arm64.zip",
-  "sha256": "69b87c7c99a75c56d771e68523050ff308c3270bcc2b453a26285a31bbe9a172",
-  "size": 15883891,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.7/PCL-macOS-v1.0.7-arm64.zip",
+  "sha256": "74ef4476d661ab1a472554c9ba21fbf5aadcdef9f20534febeed53ebaa96f4c8",
+  "size": 15893255,
   "mandatory": false,
   "notes": [
-    "顶部新增实验室入口与 Command-4 快捷键，实验功能以小卡片呈现",
-    "首个实验功能“内容汉化工坊”支持整合包、模组与资源包",
-    "支持文件夹、JAR、ZIP、MRPACK、7Z、RAR、TAR、GZ 与 TGZ",
-    "扫描 en_us、本地复用 zh_cn、自动填写常用词并允许人工编辑",
-    "检测 class 中疑似写死的英文文案并生成审计报告，不破坏字节码",
-    "可导出独立汉化资源包，不直接覆盖原文件",
-    "实验室新增入场、卡片、扫描与结果动画，并遵循减少动态效果设置",
-    "汉化编辑区新增实时完成数量、百分比与动画进度条"
+    "修复汉化扫描或导出时离开页面会残留任务、退出时被强制终止的问题",
+    "汉化任务现可安全取消，并会立即回收解压与打包子进程",
+    "修复 EasyTier 原公共节点失效导致无法创建或加入联机房间的问题",
+    "联机改用三个可用社区节点自动回退，任一共同节点可用即可发现房间",
+    "创建房间不再把远端节点连接当作硬前置，本地联机核心就绪即可创建",
+    "修复公共中继被错误计入玩家人数和延迟统计的问题"
   ]
 }
