@@ -23,6 +23,8 @@ PCL macOS 独立移植版的公开更新源与安装包。
 
 - 同步应用版本为 `v1.0.8`。
 - 内部更新码提升到 `33`，旧版本可以检测到这次更新。
+- 更新包校验以后只以 SHA-256 为准，不再因为文件大小记录不同而中断。
+- 安装包同时兼容旧包名和新包名，修复旧版下载完成后没有替换的问题。
 
 ### 验证
 
@@ -33,7 +35,7 @@ PCL macOS 独立移植版的公开更新源与安装包。
 
 ### 安装包与源码校验
 
-- Apple Silicon 安装包 SHA-256：`81e5c84d4f0d0a4f8fbd03eff5fa6e55b87f0d7af80c1d6502175e106a62aa42`
-- 源码包 SHA-256：`ab941fd2d8f9cb6bf95c41181c64f85c18dc3e05b5c04674e0975e4416f701cf`
+- Apple Silicon 安装包 SHA-256：`4eba09d3ce8649332ad561b89552ee0b5ae65ae67de1696216abcd97df975f4f`
+- 源码包 SHA-256：`56165b2ef4f52a9cf0af80d36ef77646cb1ca50d3d4a45caadf81c88bf6ddd28`
 
 当前安装包适用于 Apple Silicon、macOS 14 或更高版本。

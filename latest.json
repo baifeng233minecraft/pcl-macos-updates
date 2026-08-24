@@ -3,8 +3,8 @@
   "version": "v1.0.8",
   "minimumSystemVersion": "14.0",
   "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.8/PCL-macOS-v1.0.8-arm64.zip",
-  "sha256": "81e5c84d4f0d0a4f8fbd03eff5fa6e55b87f0d7af80c1d6502175e106a62aa42",
-  "size": 15502857,
+  "sha256": "4eba09d3ce8649332ad561b89552ee0b5ae65ae67de1696216abcd97df975f4f",
+  "size": 46640737,
   "mandatory": false,
   "notes": [
     "重写帮助页文案，改为 Bug Craft Launcher 专用说明",
@@ -12,6 +12,8 @@
     "新增快速开始、下载游戏、社区资源、整合包、账号皮肤、实例世界、联机、实验室汉化、个性化更新和故障排查帮助条目",
     "帮助页现在支持加载应用包内本地截图，离线也能正常显示图片",
     "移出旧 PCL 帮助目录，避免旧教程和旧贴图继续进入应用资源",
-    "同步版本号到 v1.0.8，内部更新码 33，旧版可检测到本次更新"
+    "同步版本号到 v1.0.8，内部更新码 33，旧版可检测到本次更新",
+    "更新包校验以后只以 SHA-256 为准，不再因为文件大小记录不同而中断",
+    "安装包兼容旧启动器包名，修复旧版下载更新后没有替换的问题"
   ]
 }
