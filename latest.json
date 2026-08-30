@@ -1,20 +1,17 @@
 {
-  "versionCode": 34,
-  "version": "v1.0.9",
+  "versionCode": 35,
+  "version": "v1.1.0",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.9/PCL-macOS-v1.0.9-arm64.zip",
-  "sha256": "ac5ebdcff1b29be8f60ad60d5d33cb1eee579e1c6756dd7ae1567f61edd041e0",
-  "size": 15673985,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.1.0/PCL-macOS-v1.1.0-arm64.zip",
+  "sha256": "dce1873e5ceb0416cd90a4c96f7c0a6b825544451a37d517b50145bc855da01f",
+  "size": 15678948,
   "mandatory": false,
   "notes": [
-    "新增升级后自动弹出的更新介绍，用户确认后不再重复显示。",
-    "个性化 > UI 选项新增“启动后显示更新介绍”开关，可随时关闭。",
-    "新增自定义字体颜色，可通过颜色选择器或 #RRGGBB 手动输入。",
-    "新增液态玻璃 UI，并支持自定义透明度、亮边、阴影。",
-    "新增液态玻璃流动高光动画，可在个性化 > UI 选项中关闭。",
-    "改进 Modrinth 服务器列表加载，兼容服务器关联整合包数据。",
-    "服务器卡片新增“开始游玩”：可下载服务器关联整合包并启动进入服务器。",
-    "下载页新增 CurseForge 平台支持，可搜索/下载模组、整合包、数据包、资源包、光影包和地图。",
-    "下载资源可选择目标实例，资源会自动安装到对应实例文件夹。"
+    "修复红石联机官网文件不存在时，启动器仍把错误页面当成内核下载的问题。",
+    "红石联机内核下载完成后会校验 HTTP 状态、文件大小与错误页面特征，避免保存坏文件。",
+    "红石联机下载源不可用时，提示改为清楚说明“官网文件不存在或暂时不可下载”。",
+    "红石联机失败界面新增“导入内核”，可手动选择已下载的 macOS 红石联机内核。",
+    "修复本机没有联机软件时直接报错的问题，现在会先尝试自动下载，失败后给出可操作提示。",
+    "改进更新安装前的钥匙串权限交接，旧版会尝试把正版/第三方登录访问权交给新版。"
   ]
 }
