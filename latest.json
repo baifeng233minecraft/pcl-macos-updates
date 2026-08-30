@@ -1,19 +1,18 @@
 {
-  "versionCode": 33,
-  "version": "v1.0.8",
+  "versionCode": 35,
+  "version": "v1.1.0",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.0.8/PCL-macOS-v1.0.8-arm64.zip",
-  "sha256": "4eba09d3ce8649332ad561b89552ee0b5ae65ae67de1696216abcd97df975f4f",
-  "size": 46640737,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.1.0/PCL-macOS-v1.1.0-arm64.zip",
+  "sha256": "ca7dd3709049e5a775f538bb70b3a03db0fd70741c010c5b90ebdf5f56540c00",
+  "size": 15702041,
   "mandatory": false,
   "notes": [
-    "重写帮助页文案，改为 Bug Craft Launcher 专用说明",
-    "替换帮助页截图为本启动器真实 macOS 界面截图，不再显示旧 PCL 帮助贴图",
-    "新增快速开始、下载游戏、社区资源、整合包、账号皮肤、实例世界、联机、实验室汉化、个性化更新和故障排查帮助条目",
-    "帮助页现在支持加载应用包内本地截图，离线也能正常显示图片",
-    "移出旧 PCL 帮助目录，避免旧教程和旧贴图继续进入应用资源",
-    "同步版本号到 v1.0.8，内部更新码 33，旧版可检测到本次更新",
-    "更新包校验以后只以 SHA-256 为准，不再因为文件大小记录不同而中断",
-    "安装包兼容旧启动器包名，修复旧版下载更新后没有替换的问题"
+    "账号保存方式新增访客模式与信任模式",
+    "默认使用访客模式，将正版和第三方登录令牌保存到 macOS 钥匙串",
+    "信任模式改为用户手动选择，登录令牌保存到本机加密文件",
+    "切换账号保存方式后会立刻刷新当前账号读取状态",
+    "删除登录页左侧的大段提示字幕，只保留账号保存方式选择",
+    "同步帮助、导入设置和关于页中的账号令牌保存说明",
+    "继续使用 SHA-256 校验更新包"
   ]
 }
