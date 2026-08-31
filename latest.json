@@ -1,10 +1,10 @@
 {
-  "versionCode": 35,
-  "version": "v1.1.0",
+  "versionCode": 36,
+  "version": "v1.1.1",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.1.0/PCL-macOS-v1.1.0-arm64.zip",
-  "sha256": "ca7dd3709049e5a775f538bb70b3a03db0fd70741c010c5b90ebdf5f56540c00",
-  "size": 15702041,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.1.1/PCL-macOS-v1.1.1-arm64.zip",
+  "sha256": "1930b2fdf255fda231c87fd6b4af815477e7ee02e79ce1316316f6eb51a32ab6",
+  "size": 15743686,
   "mandatory": false,
   "notes": [
     "修复红石联机官网文件不存在时，启动器仍把错误页面当成内核下载的问题。",
@@ -19,6 +19,11 @@
     "切换账号保存方式后会立刻刷新当前账号读取状态。",
     "删除登录页左侧的大段提示字幕，只保留账号保存方式选择。",
     "同步帮助、导入设置和关于页中的账号令牌保存说明。",
-    "继续使用 SHA-256 校验更新包。"
+    "继续使用 SHA-256 校验更新包。",
+    "实验室汉化支持百度翻译和多种大模型翻译引擎。",
+    "新增 API Key、模型名和接口地址配置，可接入兼容 OpenAI 格式的大模型服务。",
+    "新增复制 AI 接管提示词，可把扫描结果交给外部 AI 继续翻译。",
+    "汉化导出改为可直接放入实例 mods 文件夹的 .jar 文件。",
+    "汉化 jar 会包含 Fabric、Forge、NeoForge 可识别的基础元数据。"
   ]
 }
