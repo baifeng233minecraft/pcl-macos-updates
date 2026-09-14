@@ -1,20 +1,20 @@
 {
-  "versionCode": 37,
-  "version": "v1.1.2",
+  "versionCode": 38,
+  "version": "v1.1.3",
   "minimumSystemVersion": "14.0",
-  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.1.2/PCL-macOS-v1.1.2-arm64.zip",
-  "sha256": "7d2781f1d18850cdecf0f3e02ae0c4cf2a29111391140f2b9710deb1a3ba6ae6",
-  "size": 15803770,
+  "downloadURL": "https://github.com/baifeng233minecraft/pcl-macos-updates/releases/download/v1.1.3/PCL-macOS-v1.1.3-arm64.zip",
+  "sha256": "6d009a371ee298ecc1fb3b0e83d2b4cf2336396011f70befcfa77e19efd9ddd0",
+  "size": 15840215,
   "mandatory": false,
   "notes": [
-    "个性化新增动画速度调节，可在 0.5 倍到 2.0 倍之间实时调整。",
-    "按钮反馈、页面切换、列表移动、选中放大和卡片进入动画可以分别开启或关闭。",
-    "关闭单项动画不会影响对应按钮、列表和页面的实际功能。",
-    "实验室内容汉化工坊新增光影包识别与汉化支持。",
-    "光影包会正确读取 shaders/lang 下的英文语言文件，并生成 zh_cn 光影语言资源。",
-    "汉化光影包会导出为可直接放入 shaderpacks 文件夹的 .zip，不再错误生成为 Mod。",
-    "实验室新增 BCL 模组卡片，可为当前实例安装配套模组并快速管理配置与存档。",
-    "同步应用版本为 v1.1.2，内部更新码为 37。",
+    "下载资源列表移除查看详情按钮，现在点击卡片任意位置即可打开详情页。",
+    "Mod 管理新增一键切换，可自动切换到适配当前实例的最新版本并安装必需前置模组。",
+    "模组详情页选择其他版本后会立即切换，无需再次点击安装按钮。",
+    "下载加载动画改为居中的猫咪，外圈线条围绕猫咪旋转，并保留真实进度条。",
+    "百宝箱新增网络测评，可检测 Minecraft、Modrinth 与 GitHub 延迟并测量下载速度。",
+    "下载资源、原版游戏和 Mod 管理列表统一使用更圆润的连续圆角。",
+    "修复自定义最小化按钮，并改进 macOS 液态玻璃界面与主题色的协同显示。",
+    "同步应用版本为 v1.1.3，内部更新码为 38。",
     "更新包继续使用 SHA-256 校验。"
   ]
 }
